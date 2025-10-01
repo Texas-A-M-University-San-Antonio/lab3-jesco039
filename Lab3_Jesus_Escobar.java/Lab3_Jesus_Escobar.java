@@ -1,6 +1,6 @@
-// Lab3_Jesus_Escobar
+// Lab3_Jesus_Escobar.java
 
-import java.util.Scanner; // Need for reading input from the user
+import java.util.Scanner;   // Need for reading input from the user
 
 public class Lab3_Jesus_Escobar 
 {
@@ -11,8 +11,8 @@ public class Lab3_Jesus_Escobar
 
         // Declare the required variables:
         // initialValue: double
-        // years: initialValue
-        //interestPct: double
+        // years: int
+        // interestPct: double
         // finalValue: double
         double initialValue;
         int years;
@@ -20,15 +20,16 @@ public class Lab3_Jesus_Escobar
         double finalValue;
 
         // Prompt and read inital Value
-        System.out.print("Please enter the initial value of teh home: ");
+        System.out.print("Please enter the initial value of the home: ");
         initialValue = scanner.nextDouble();
 
         //Prompt and read numbers of years
-        System.out.print("Please enter the numbger of elapsed years: ");
+        System.out.print("Please enter the number of elapsed years: ");
         years = scanner.nextInt();
 
-        // Prompt and read interrest rate
+        // Prompt and read interest rate
         System.out.print("Please enter the interest rate: ");
+        interestPct = scanner.nextDouble();
 
         // Convert interest percentage to decimal from
         double r = interestPct / 100.0;
